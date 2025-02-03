@@ -11,7 +11,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
   
 2. **<mark>Optional:</mark> Create a Virtual Environment** 
    It's recommended to use a virtual environment to avoid conflicts with existing Python libraries or versions you may have installed globally. To create and activate a virtual environment, follow these steps:
-- **Linux/macOS:**
+- **<div style="display: flex; align-items: bottom;"><span>Linux/macOS </span><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linux&theme=light" alt="linux" width="20px" height="20px" style="position: relative; top: -10px;"/></a> :</div>** 
    ```
    python3 -m venv venv          # Create virtual environment
    source venv/bin/activate      # Activate virtual environment
