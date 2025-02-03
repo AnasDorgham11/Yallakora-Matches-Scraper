@@ -18,7 +18,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
    ```
 
 
-- **<span>  <div style="display: flex; align-items: bottom;"><span>Windows</span><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=windows&theme=light" alt="Windows" width="25px" height="25px" style="position: relative; top: 20px;"/></a></div>:** 
+- **<div style="display: flex; align-items: bottom;"><span>Windows</span><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=windows&theme=light" alt="Windows" width="25px" height="25px" style="position: relative; top: 20px;"/></a></div>:** 
     - Command Prompt (CMD):
     ```
     python -m venv venv          # Create virtual environment
