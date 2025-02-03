@@ -21,14 +21,14 @@ This Python script allows you to scrape match data from Yallakora, a website tha
 
 <!DOCTYPE html>
 <head>
-<style>
-.text-align-vert {
-    display: table-cell;
-    padding: 4px;
-}
-</style>
+   <style>
+      .text-align-vert {
+          display: table-cell;
+          padding: 4px;
+      }
+   </style>
 </head>
-
+<body>
 <th style="text-align:center">
      <div class="bullet-container">
           <div class="bullet-one">
@@ -41,6 +41,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
           </div>
     </div>
 </th>
+</body>
 </html>
 - **<span>  <div style="display: flex; align-items: bottom;"><span>Windows<</span><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=windows&theme=light" alt="Windows" width="25px" height="25px" /></a></div> :** 
     - Command Prompt (CMD):
