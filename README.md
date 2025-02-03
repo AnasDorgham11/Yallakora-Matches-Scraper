@@ -13,7 +13,7 @@ This Python project scrapes match data from Yallakora, providing details like co
    git clone git@github.com:AnasDorgham11/Yallakora-Matches-Scraper/.git
    cd Yallakora-Matches-Scraper
   
-2. **Optional: Create a Virtual Environment** 
+2. **<mark>Optional:</mark> Create a Virtual Environment** 
    It's recommended to use a virtual environment to avoid conflicts with existing Python libraries or versions you may have installed globally. To create and activate a virtual environment, follow these steps:
 - **Linux/macOS:**
    ```
