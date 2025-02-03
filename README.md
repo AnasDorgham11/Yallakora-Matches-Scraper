@@ -1,9 +1,5 @@
 # Yallakora-Matches-Scraper
-A Python script to scrape matches data (score, competition title, round, time, etc.) from Yallakora for a specific date.
-
-# Yallakora Matches Scraper
-
-This Python project scrapes match data from Yallakora, providing details like competition title, round, and match time for a specific date. The project allows you to easily gather match information from the site with just a few simple commands.
+This Python script allows you to scrape match data from Yallakora, an Arabic website that provides match scores, including details like competition title, round, and match time. When running the script, you’ll be prompted to enter a specific date, and it will fetch and display all the match data for that day. This is perfect for quickly gathering up-to-date match information from Yallakora in a structured format.
 
 ## Setup Instructions:
 
@@ -33,12 +29,26 @@ This Python project scrapes match data from Yallakora, providing details like co
     ```
 
 3. **Install Dependencies**
-After activating the virtual environment, install the required libraries using the ```requirements.txt``` file:
-```
-pip install -r requirements.txt
-```
+   After activating the virtual environment, install the required libraries using the ```requirements.txt``` file:
+   ```
+   pip install -r requirements.txt
+   ```
 
-If you encounter the error externally managed environment while trying to use pip install, this is a common issue on Linux systems. You can resolve it by installing dependencies using your system package manager:
-```
-sudo apt install -r requirements.txt
-```
+   If you encounter the error ```externally managed environment``` while trying to use ```pip install```, this is a common issue on Linux systems. You can resolve it by installing dependencies using your system package manager:
+   ```
+   sudo apt install -r requirements.txt
+   ```
+4. **Run the Scraper**
+   Once the environment is set up and dependencies are installed, run the scraper to collect match data:
+   ```
+   python3 scraper.py
+   ```
+5. **<mark>Optional:</mark>Deactivating the Virtual Environment**
+   When you're done, deactivate the virtual environment, if you have activated it as in step 2, by running:
+   ```deactivate```
+
+##Notes:
+- Virtual Environment (venv) is optional but highly recommended. It helps avoid conflicts between different library versions that might already exist on your system.
+- Activating the virtual environment ensures that your project uses the correct dependencies, even if you already have other versions installed globally.
+- If you skip creating a virtual environment, make sure you're managing your dependencies manually to avoid version conflicts.
+
