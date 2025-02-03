@@ -18,6 +18,30 @@ This Python script allows you to scrape match data from Yallakora, a website tha
    ```
 
 
+- **Windows** <svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .text-align-vert {
+             display: table-cell;
+             padding: 4px;
+         }
+      </style>
+<th style="text-align:center">
+     <div class="bullet-container">
+          <div class="bullet-one">
+               <div class="img-left" style="width:60px; margin:0; display:inline-block; text-align:right;">
+                    <img src="https://skillicons.dev/icons?i=windows&theme=light" style="width:30px; display:inline-block; margin-right:0px">
+               </div>
+               <div class="content-right" style="display:inline-block">
+                    <p class="text-align-vert">Windows</p>
+               </div>
+          </div>
+    </div>
+</th>
+  </foreignObject>
+</svg>
+
 
 <html>
 <html lang="en">
