@@ -16,11 +16,11 @@ This Python script allows you to scrape match data from Yallakora, a website tha
    python3 -m venv venv          # Create virtual environment
    source venv/bin/activate      # Activate virtual environment
    ```
-
+<style>
 .text-align-vert {
     display: table-cell;
     padding: 4px;
-}
+}</style>
 
 <th style="text-align:center">
      <div class="bullet-container">
