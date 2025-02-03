@@ -9,7 +9,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
    git clone git@github.com:AnasDorgham11/Yallakora-Matches-Scraper/.git
    cd Yallakora-Matches-Scraper
 
-<br>
+<br></br>
 2. **<mark>Optional:</mark> Create a Virtual Environment** 
    It's recommended to use a virtual environment to avoid conflicts with existing Python libraries or versions you may have installed globally. To create and activate a virtual environment, follow these steps:
 - **<div style="display: flex; align-items: bottom;"><span>Linux/macOS </span><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linux&theme=light" alt="linux" width="20px" height="20px" style="position: relative; top: -10px;"/></a> :</div>** 
@@ -31,7 +31,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
     .\venv\Scripts\Activate.ps1  # Activate virtual environment
     ```
 
-<br>
+<br></br>
 3. **Install Dependencies**
    After activating the virtual environment, install the required libraries using the ```requirements.txt``` file:
    ```
@@ -43,23 +43,23 @@ This Python script allows you to scrape match data from Yallakora, a website tha
    sudo apt install -r requirements.txt
    ```
 
-<br>
+<br></br>
 4. **Run the Scraper**
    Once the environment is set up and dependencies are installed, run the scraper to collect match data:
    ```
    python3 scraper.py
    ```
 
-<br>
+<br></br>
 5. **Find scraped matches**
    You can find scraped matches in the folder "matches" which is created automatically after running the script and entering the date in the format ```M/D/Y``` where ```M``` is the month, ```D``` is the day and ```Y``` is thre year where       each one could be in multiple digits if required like the format "MM/DD/YYYY".
 
-<br>
+<br></br>
 6. **<mark>Optional:</mark> Deactivating the Virtual Environment**
    If you have activated it as explained in step 2, when you're done, deactivate the virtual environment, if you have activated it as in step 2, by running:
    ```deactivate```
 
-<br>
+<br></br>
 ## Notes:
    - Scraped data are in Arabic.
    - Virtual Environment (venv) is optional but highly recommended. It helps avoid conflicts between different library versions that might already exist on your system.
