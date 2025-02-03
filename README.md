@@ -30,8 +30,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
     python -m venv venv          # Create virtual environment
     .\venv\Scripts\Activate.ps1  # Activate virtual environment
     ```
-
-<br />
+     <br />
 3. **Install Dependencies**
    After activating the virtual environment, install the required libraries using the ```requirements.txt``` file:
    ```
@@ -43,18 +42,18 @@ This Python script allows you to scrape match data from Yallakora, a website tha
    sudo apt install -r requirements.txt
    ```
 
-<br />
+   <br />
 4. **Run the Scraper**
    Once the environment is set up and dependencies are installed, run the scraper to collect match data:
    ```
    python3 scraper.py
    ```
 
-<br />
+   <br />
 5. **Find scraped matches**
    You can find scraped matches in the folder "matches" which is created automatically after running the script and entering the date in the format ```M/D/Y``` where ```M``` is the month, ```D``` is the day and ```Y``` is thre year where       each one could be in multiple digits if required like the format "MM/DD/YYYY".
 
-<br />
+   <br />
 6. **<mark>Optional:</mark> Deactivating the Virtual Environment**
    If you have activated it as explained in step 2, when you're done, deactivate the virtual environment, if you have activated it as in step 2, by running:
    ```deactivate```
