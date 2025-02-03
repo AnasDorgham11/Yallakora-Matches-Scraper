@@ -16,6 +16,24 @@ This Python script allows you to scrape match data from Yallakora, a website tha
    python3 -m venv venv          # Create virtual environment
    source venv/bin/activate      # Activate virtual environment
    ```
+
+.text-align-vert {
+    display: table-cell;
+    padding: 4px;
+}
+
+<th style="text-align:center">
+     <div class="bullet-container">
+          <div class="bullet-one">
+               <div class="img-left" style="width:60px; margin:0; display:inline-block; text-align:right;">
+                    <img src"https://skillicons.dev/icons?i=windows&theme=light" style="width:30px; display:inline-block; margin-right:0px">
+               </div>
+               <div class="content-right" style="display:inline-block">
+                    <p class="text-align-vert">Windows</p>
+               </div>
+          </div>
+    </div>
+</th> 
 - **<span>  <div style="display: flex; align-items: bottom;"><span>Windows<</span><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=windows&theme=light" alt="Windows" width="25px" height="25px" /></a></div> :** 
     - Command Prompt (CMD):
     ```
