@@ -17,7 +17,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
    source venv/bin/activate      # Activate virtual environment
    ```
 - **Windows:** <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=windows&theme=light" alt="Windows" width="30px" height="30px" style="vertical-align: bottom;" />
+  <img src="https://skillicons.dev/icons?i=windows&theme=light" alt="Windows" width="30px" height="30px" style="vertical-align: top;" />
 </a>
     - Command Prompt (CMD):
     ```
