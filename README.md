@@ -16,7 +16,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
    python3 -m venv venv          # Create virtual environment
    source venv/bin/activate      # Activate virtual environment
    ```
-- **Windows:**
+- **Windows:** [![My Skills](https://skillicons.dev/icons?i=windows&theme=light)](https://skillicons.dev)
     - Command Prompt (CMD):
     ```
     python -m venv venv          # Create virtual environment
@@ -46,8 +46,8 @@ This Python script allows you to scrape match data from Yallakora, a website tha
 5. **Find scraped matches**
    You can find scraped matches in the folder "matches" which is created automatically after running the script and entering the date in the format ```M/D/Y``` where ```M``` is the month, ```D``` is the day and ```Y``` is thre year where       each one could be in multiple digits if required like the format "MM/DD/YYYY".
     
-6. **<mark>Optional:</mark>Deactivating the Virtual Environment**
-   When you're done, deactivate the virtual environment, if you have activated it as in step 2, by running:
+6. **<mark>Optional:</mark> Deactivating the Virtual Environment**
+   If you have activated it as explained in step 2, when you're done, deactivate the virtual environment, if you have activated it as in step 2, by running:
    ```deactivate```
 
 ## Notes:
@@ -55,4 +55,5 @@ This Python script allows you to scrape match data from Yallakora, a website tha
    - Virtual Environment (venv) is optional but highly recommended. It helps avoid conflicts between different library versions that might already exist on your system.
    - Activating the virtual environment ensures that your project uses the correct dependencies, even if you already have other versions installed globally.
    - If you skip creating a virtual environment, make sure you're managing your dependencies manually to avoid version conflicts.
+   - ```requirements.txt``` contains the libraries needed for the script.
 
