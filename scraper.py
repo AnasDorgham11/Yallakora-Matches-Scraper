@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import csv
+from pathlib import Path
 
 
 date = input("Please, enter the date in the format MM/DD/YYYY: ")
@@ -50,5 +51,16 @@ for card in cards:
 
 
 df = pd.DataFrame(match_details, index = None)
-df = df.rename(columns={"Competition":"البطولة", "Round": "الجولة/الدور", "Score A":"هدف أ", "Score B":"هدف ب","Penalty A":"ض.ج أ","Penalty B":"ض.ج ب","Team A":"فريق أ","Team B":"فريق ب","Time":"التوقيب"})
+df = df.rename(columns={"Competition":"البطولة", "Round": "الجولة/الدور", "Score A":"هدف أ", "Score B":"هدف ب","Penalty A":"ض.ج أ","Penalty B":"ض.ج ب","Team A":"فريق أ","Team B":"فريق ب","Time":"التوقيت"})
+
+# Define the path of folder "matches" which contains the matches csv files 
+folder_path = Path("matches")
+
+# Check if the folder exists and create it if it does not
+if not folder_path.exists():
+    folder_path.mkdir(parents = True, exist_ok = True)
+    print(f"Folder '{folder_path}' created.")
+
+# Save matches details in a CSV file named as '<MM-DD-YYYY>.csv'
 df.to_csv(f"matches/{date.replace('/','-')}_Matches.csv")
+print(f"Matches played on {date} are listed in 'matches/{date.replace('/','-')}.csv'")
