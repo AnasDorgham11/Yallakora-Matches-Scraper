@@ -17,12 +17,17 @@ This Python script allows you to scrape match data from Yallakora, a website tha
    source venv/bin/activate      # Activate virtual environment
    ```
 
+
+
 <!DOCTYPE html>
+<head>
 <style>
 .text-align-vert {
     display: table-cell;
     padding: 4px;
-}</style>
+}
+</style>
+</head>
 
 <th style="text-align:center">
      <div class="bullet-container">
