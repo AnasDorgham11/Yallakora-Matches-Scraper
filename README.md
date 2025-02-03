@@ -16,7 +16,9 @@ This Python script allows you to scrape match data from Yallakora, a website tha
    python3 -m venv venv          # Create virtual environment
    source venv/bin/activate      # Activate virtual environment
    ```
-- **Windows:** [![My Skills](https://skillicons.dev/icons?i=windows&theme=light)](https://skillicons.dev)
+- **Windows:** <a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=windows&theme=light" alt="Windows" width="50px" height="50px" />
+</a>
     - Command Prompt (CMD):
     ```
     python -m venv venv          # Create virtual environment
