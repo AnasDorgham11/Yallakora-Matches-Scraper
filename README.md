@@ -15,20 +15,20 @@ This Python project scrapes match data from Yallakora, providing details like co
   
 2. **Optional: Create a Virtual Environment** 
    It's recommended to use a virtual environment to avoid conflicts with existing Python libraries or versions you may have installed globally. To create and activate a virtual environment, follow these steps:
-  - Linux/macOS:
+   - **Linux/macOS:**
    ```
-   python3 -m venv venv      # Create virtual environment
-   source venv/bin/activate   # Activate virtual environment
+   python3 -m venv venv          # Create virtual environment
+   source venv/bin/activate      # Activate virtual environment
    ```
-  - Windows:
+   - **Windows:**
     - Command Prompt (CMD):
     ```
-    python -m venv venv       # Create virtual environment
-    venv\Scripts\activate     # Activate virtual environment
+    python -m venv venv          # Create virtual environment
+    venv\Scripts\activate        # Activate virtual environment
     ```
-   - PowerShell:
+    - PowerShell:
     ```
-    python -m venv venv       # Create virtual environment
+    python -m venv venv          # Create virtual environment
     .\venv\Scripts\Activate.ps1  # Activate virtual environment
     ```
 
