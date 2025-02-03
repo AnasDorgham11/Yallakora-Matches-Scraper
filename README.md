@@ -20,14 +20,15 @@ This Python script allows you to scrape match data from Yallakora, a website tha
 
 
 <!DOCTYPE html>
-<head>
-   <style>
-      .text-align-vert {
-          display: table-cell;
-          padding: 4px;
-      }
-   </style>
-</head>
+<html lang="en">
+   <head>
+      <style>
+         .text-align-vert {
+             display: table-cell;
+             padding: 4px;
+         }
+      </style>
+   </head>
 <body>
 <th style="text-align:center">
      <div class="bullet-container">
