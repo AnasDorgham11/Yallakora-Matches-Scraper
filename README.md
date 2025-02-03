@@ -1,5 +1,5 @@
 # Yallakora-Matches-Scraper
-This Python script allows you to scrape match data from Yallakora, an Arabic website that provides match scores, including details like competition title, round, and match time. When running the script, you’ll be prompted to enter a specific date, and it will fetch and display all the match data for that day. This is perfect for quickly gathering up-to-date match information from Yallakora in a structured format.
+This Python script allows you to scrape match data from Yallakora, a website that provides match scores, including details like competition title, round, and match time in Arabic language. When running the script, you’ll be prompted to enter a specific date, and it will fetch and display all the match data for that day. This is perfect for quickly gathering up-to-date match information from Yallakora in a structured format.
 
 ## Setup Instructions:
 
@@ -43,11 +43,15 @@ This Python script allows you to scrape match data from Yallakora, an Arabic web
    ```
    python3 scraper.py
    ```
-5. **<mark>Optional:</mark>Deactivating the Virtual Environment**
+5. **Find scraped matches**
+   You can find scraped matches in the folder "matches" which is created automatically after running the script and entering the date in the format ```M/D/Y``` where ```M``` is the month, ```D``` is the day and ```Y``` is thre year where       each one could be in multiple digits if required like the format "MM/DD/YYYY".
+    
+6. **<mark>Optional:</mark>Deactivating the Virtual Environment**
    When you're done, deactivate the virtual environment, if you have activated it as in step 2, by running:
    ```deactivate```
 
 ## Notes:
+   - Scraped data are in Arabic.
    - Virtual Environment (venv) is optional but highly recommended. It helps avoid conflicts between different library versions that might already exist on your system.
    - Activating the virtual environment ensures that your project uses the correct dependencies, even if you already have other versions installed globally.
    - If you skip creating a virtual environment, make sure you're managing your dependencies manually to avoid version conflicts.
