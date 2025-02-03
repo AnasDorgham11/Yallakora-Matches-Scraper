@@ -19,7 +19,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
 
 
 
-<!DOCTYPE html>
+<html>
 <html lang="en">
    <head>
       <style>
