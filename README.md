@@ -1,9 +1,9 @@
-q# Yallakora-Matches-Scraper
+# Yallakora-Matches-Scraper
 This Python script allows you to scrape match data from Yallakora, a website that provides match scores, including details like competition title, round, and match time in Arabic language. When running the script, you’ll be prompted to enter a specific date, and it will fetch and display all the match data for that day. This is perfect for quickly gathering up-to-date match information from Yallakora in a structured format.
 
 ## Setup Instructions:
 
-1. ###Clone the Repository
+1. Clone the Repository
    First, clone the repository to your local machine:
    ```bash
    git clone git@github.com:AnasDorgham11/Yallakora-Matches-Scraper/.git
