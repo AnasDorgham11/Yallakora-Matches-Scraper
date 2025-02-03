@@ -16,7 +16,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
    python3 -m venv venv          # Create virtual environment
    source venv/bin/activate      # Activate virtual environment
    ```
-```html
+
 <!DOCTYPE html>
 <style>
 .text-align-vert {
