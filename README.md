@@ -31,7 +31,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
     .\venv\Scripts\Activate.ps1  # Activate virtual environment
     ```
      <br />
-3. **Install Dependencies**
+3. **Install Dependencies**<br />
    After activating the virtual environment, install the required libraries using the ```requirements.txt``` file:
    ```
    pip install -r requirements.txt
