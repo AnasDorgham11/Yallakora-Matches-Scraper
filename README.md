@@ -51,7 +51,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
 
    <br />
 5. **Find scraped matches**<br />
-   You can find scraped matches in the folder "matches" which is created automatically after running the script and entering the date in the format ```M/D/Y``` where ```M``` is the month, ```D``` is the day and ```Y``` is thre year where       each one could be in multiple digits if required like the format "MM/DD/YYYY".
+   You can find scraped matches in the folder "matches" which is created automatically after running the script and entering the date in the format ```MM/DD/YYYY``` where ```MM``` is the month, ```DD``` is the day and ```YYYY``` is the year.
 
    <br />
 6. **<mark>Optional:</mark> Deactivating the Virtual Environment**<br />
