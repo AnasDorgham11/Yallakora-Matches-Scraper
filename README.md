@@ -55,7 +55,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
 
    <br />
 6. **<mark>Optional:</mark> Deactivating the Virtual Environment**<br />
-   If you have activated it as explained in step 2, when you're done, deactivate the virtual environment, if you have activated it as in step 2, by running:
+   If you have activated the virtual environment as explained in step 2, when you're done, deactivate the virtual environment by running:
    ```deactivate```
 
    <br />
