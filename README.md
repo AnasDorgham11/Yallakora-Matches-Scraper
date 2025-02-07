@@ -6,7 +6,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
 1. **Clone the Repository** <br />
    First, clone the repository to your local machine:
    ```bash
-   git clone git@github.com:AnasDorgham11/Yallakora-Matches-Scraper/.git
+   git clone git@github.com:AnasDorgham11/Yallakora-Matches-Scraper.git
    cd Yallakora-Matches-Scraper
    ```
       <br />
