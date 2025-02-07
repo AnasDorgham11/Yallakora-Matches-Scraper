@@ -54,7 +54,7 @@ This Python script allows you to scrape match data from Yallakora, a website tha
    You can find scraped matches in the folder "matches" which is created automatically after running the script and entering the date in the format ```MM/DD/YYYY``` where ```MM``` is the month, ```DD``` is the day and ```YYYY``` is the year.
 
    <br />
-6. **<mark>Optional:</mark> Deactivating the Virtual Environment**<br />
+6. **<mark>Optional:</mark> Deactivate the Virtual Environment**<br />
    If you have activated the virtual environment as explained in step 2, when you're done, deactivate the virtual environment by running:
    ```deactivate```
 
